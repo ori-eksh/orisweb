@@ -75,9 +75,4 @@ bulletin-board/
 2. View the list of ads on the right panel.
 3. All ads are stored in the MySQL database.
 
-## Contributing
-Contributions are welcome! Fork this repository and create pull requests to propose changes.
 
-## License
-This project is released under the MIT License.
-```
