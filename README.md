@@ -57,13 +57,14 @@ bulletin-board/
 │   ├── styles.css
 │   └── script.js
 ├── backend/
-│   ├── addMessage.php
-│   ├── getMessages.php
+│   ├── adController.php
+│   ├── sendMail.php
 │   └── config.php
 ├── images/
 │   └── mountain.jpg
 └── database.sql
 ```
+[![Watch the video](https://img.youtube.com/vi/psd6K3i8uWw/0.jpg)](https://youtu.be/psd6K3i8uWw)
 
 ## Technology Stack
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript
