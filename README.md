@@ -64,7 +64,7 @@ bulletin-board/
 │   └── mountain.jpg
 └── database.sql
 ```
-[![Watch the video](https://img.youtube.com/vi/M5KOlWJNKk0/0.jpg)](https://youtu.be/M5KOlWJNKk0)
+[Watch the video on YouTube](https://youtu.be/psd6K3i8uWw)
 
 ## Technology Stack
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript
