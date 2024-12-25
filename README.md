@@ -57,8 +57,8 @@ bulletin-board/
 │   ├── styles.css
 │   └── script.js
 ├── backend/
-│   ├── addMessage.php
-│   ├── getMessages.php
+│   ├── adController.php
+│   ├── sendMail.php
 │   └── config.php
 ├── images/
 │   └── mountain.jpg
