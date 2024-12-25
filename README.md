@@ -45,7 +45,7 @@ The Bulletin Board is a dynamic web application for posting and displaying publi
 ### Running the Application
 1. Open a web browser and visit:
    ```
-   http://localhost/bulletin-board/
+   http://localhost/orisweb/frontend/
    ```
 2. Use the provided form to post messages and view them on the board.
 
