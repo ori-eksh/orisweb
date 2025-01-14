@@ -14,10 +14,10 @@ function sendConfirmationEmail($email, $name) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'ramathod8@gmail.com'; // Replace with your Gmail
-        $mail->Password = '0098OdORI'; // Replace with your app password
+        $mail->Password = 'yiwq ihro jono bliu'; // Replace with your app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
-        $mail->SMTPDebug = 2; // Debug level: 0 = off, 2 = verbose debug
+        $mail->SMTPDebug = 0; // Debug level: 0 = off, 2 = verbose debug
 
         $mail->setFrom('ramathod8@gmail.com', 'Bulletin Board');
         $mail->addAddress($email, $name);

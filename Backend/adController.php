@@ -5,6 +5,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+ini_set('display_errors', value: 0); // Disable error display
+ini_set('log_errors', 1); // Enable error logging
+ini_set('error_log', __DIR__ . '/error.log'); // Set the error log file path
+
 // Set Content-Type header
 header('Content-Type: application/json');
 
@@ -21,6 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("ssss", $name, $email, $content, $token);
 
     if ($stmt->execute()) {
+         // Send a confirmation email
+         $emailSent = sendConfirmationEmail($email, $name);
         echo json_encode(["success" => true]);
     } else {
         echo json_encode(["success" => false, "error" => $stmt->error]);
